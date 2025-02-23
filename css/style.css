@@ -1,0 +1,324 @@
+@font-face {
+    font-family: breaking-bad;
+    src: url(../assets/fonts/Breaking\ Bad.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 2rem;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+/* Index style */
+
+.index {
+    padding-top: 300px;
+    text-align: center;
+    font-family: breaking-bad;
+    color: white;
+    background-image: url(../assets/img/logo.PNG), url(../assets/img/fondo.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-position: center 1rem, center;
+    background-size: 200px, cover;
+}
+
+.title {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.index h2 {
+    margin-bottom: 2.5rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.poster {
+    width: 700px;
+    height: 300px;
+    border: 10px solid brown;
+    border-style: outset;
+    border-radius: 22px;
+}
+
+area {
+    cursor: pointer;
+}
+
+/* =================
+   ESTILOS PARA FORMULARIO
+   ================= */
+.form {
+    background: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    font-family: helvetica, arial, sans-serif;
+    color: whitesmoke;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    margin: auto;
+    background-color: #2b2c24bb;
+    padding: 1rem;
+}
+
+.form form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+.form form input {
+    padding: 0.2rem;
+}
+
+.form-gender,
+.form-birthdate {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.3rem;
+}
+
+.form-characters {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.form-characters label {
+    flex-grow: 1;
+}
+
+.form-characters select {
+    flex-grow: 999;
+    padding: 0.3rem;
+}
+
+.form-coment {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.form-coment textarea {
+    padding: 0.2rem;
+    resize: none;
+    overflow: scroll auto visible;
+    min-height: 7rem;
+}
+
+#file {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-controls {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.form-btn {
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+/* Table style */
+
+.table-page {
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    background: #0c3e11 url(../assets/img/cabecera.png);
+    background-repeat: no-repeat;
+    background-position: center top 2rem;
+    padding-top: 250px;
+}
+
+table {
+    margin: auto;
+    margin: 1rem auto;
+    background-color: #2b2c24;
+    border: 5px solid transparent;
+    border-spacing: 5px;
+    color: #2b2c24;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+    width: 75px;
+    height: 77px;
+}
+
+.t-name {
+    width: 100%;
+    padding: 0 2px;
+}
+
+.xl-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2b2c24;
+}
+
+.walterwhite {
+    background: url('../assets/img/tabla_periodica/walterwhite.png');
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    padding-top: 4.5rem;
+}
+
+.xs-text {
+    font-size: 10px;
+}
+
+.bg-img1 {
+    background: url("../assets/img/tabla_periodica/hankschrader.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hc {
+    background: url("../assets/img/tabla_periodica/hectorsalamanca.png");
+}
+
+.ts {
+    background: url("../assets/img/tabla_periodica/tucosalamanca.png");
+}
+
+.gf {
+    background: url("../assets/img/tabla_periodica/gustavofrink.png");
+}
+
+.sw {
+    background: url("../assets/img/tabla_periodica/skylerwhite.png");
+}
+
+.sa {
+    background: url("../assets/img/tabla_periodica/saulgoodman.png");
+}
+
+.jp {
+    background: url("../assets/img/tabla_periodica/jessiepinkman.png");
+}
+
+.gb {
+    background: url("../assets/img/tabla_periodica/gale.png");
+}
+
+.ms {
+    background: url("../assets/img/tabla_periodica/marieschrader.png");
+}
+
+.bd {
+    background: url("../assets/img/tabla_periodica/badger.png");
+}
+
+.me {
+    background: url("../assets/img/tabla_periodica/mike.png");
+}
+
+.w-img {
+    background-repeat: no-repeat;
+    background-position: center bottom 10px;
+    background-size: 65px 77px;
+    padding-bottom: 5.5rem;
+}
+
+.bus {
+    background: url("../assets/img/tabla_periodica/bus.png");
+    background-size: 98% auto;
+}
+
+.pistol {
+    background: url("../assets/img/tabla_periodica/pistola.png");
+    background-size: 102% auto;
+}
+
+.potion {
+    background: url("../assets/img/tabla_periodica/pocima.png");
+    background-size: 80% auto;
+}
+
+.movile {
+    background: url("../assets/img/tabla_periodica/movil.png");
+    background-size: 90% auto;
+}
+
+.fly {
+    background: url("../assets/img/tabla_periodica/mosca.png");
+    background-size: 95% auto;
+}
+
+.crystal {
+    background: url("../assets/img/tabla_periodica/cristal.png");
+    background-size: 65% auto;
+}
+
+.pizza {
+    background: url("../assets/img/tabla_periodica/pizza.png");
+    background-size: 90% auto;
+}
+
+.boxers {
+    background: url("../assets/img/tabla_periodica/calzoncillos.png");
+    background-size: 90% auto;
+}
+
+.mask {
+    background: url("../assets/img/tabla_periodica/mascara.png");
+    background-size: 85% auto;
+}
+
+.plate {
+    background: url("../assets/img/tabla_periodica/plato.png");
+    background-size: 85% auto;
+}
+
+.table2 td {
+    width: 75px;
+    height: 77px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Color class */
+
+.color1 { background-color: #b5dc1c; }
+.color2 { background-color: #ac8dcf; }
+.color3 { background-color: #f2f8cd; }
+.color4 { background-color: #8aa416; }
+.color5 { background-color: #637026; }
+.color6 { background-color: #c5e249; }
+.color7 { background-color: #bcc3a1; }
+.color8 { background-color: #818d4d; }
+.color9 { background-color: #d7e97c; }
+
+.t2-color {
+    background-color: #c5c724;
+}
+
+.t2-color img {
+    width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Breaking Bad – Que comience el juego!</title>
+  </head>
+  <body>
+    <div class="wrapper form">
+      <h1 class="title">Breaking Bad – Que comience el juego!</h1>
+      <form action="mailto:raul.rodriguez@proeducaglobal.com">
+        <!-- Datos Personales -->
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label for="name">Nombre</label>
+          <input name="name" type="text" id="name" minlength="3" required>
+          
+          <label for="l-name">Apellidos</label>
+          <input name="l-name" type="text" id="l-name" minlength="3" required>
+          
+          <label for="email">Correo Electrónico</label>
+          <input name="email" type="email" id="email" required>
+          
+          <!-- Dirección Postal -->
+          <fieldset>
+            <legend>Dirección Postal</legend>
+            <label for="street">Calle</label>
+            <input name="street" type="text" id="street">
+            
+            <label for="num">Número</label>
+            <input name="num" type="number" id="num" min="1" step="1">
+            
+            <label for="floor">Piso</label>
+            <input name="floor" type="number" id="floor" min="0" step="1">
+            
+            <label for="zip">Código Postal</label>
+            <input name="zip" type="text" id="zip">
+            
+            <label for="city">Ciudad</label>
+            <input name="city" type="text" id="city">
+            
+            <label for="dni">DNI</label>
+            <input name="dni" type="text" id="dni">
+          </fieldset>
+          
+          <!-- Sexo -->
+          <div class="form-gender">
+            <label for="gender">Sexo: </label>
+            <input name="gender" type="radio" id="gender" value="m"> Hombre
+            <input name="gender" type="radio" id="gender" value="f"> Mujer
+          </div>
+          
+          <!-- Fecha de Nacimiento -->
+          <div class="form-birthdate">
+            <label for="birthdate">Fecha de nacimiento</label>
+            <input name="birthdate" type="text" id="birthdate">
+          </div>
+        </fieldset>
+        
+        <!-- Escoge tu personaje -->
+        <section class="form-characters">
+          <label for="character">Escoge tu personaje</label>
+          <select name="character" id="character">
+            <option value="jp">Jessie Pinkman</option>
+            <option value="ww">Walter White</option>
+            <option value="sg">Saul Goodman</option>
+            <option value="gf">Gustavo Fring</option>
+            <option value="ph">Pollos Hermanos</option>
+            <option value="ot">Otros personajes</option>
+          </select>
+        </section>
+        
+        <!-- Comentarios -->
+        <section class="form-coment">
+          <label for="coment">Comentarios</label>
+          <textarea name="coment" id="coment"></textarea>
+        </section>
+        
+        <input type="file" name="file" id="file">
+        
+        <div class="form-controls">
+          <input class="form-btn" type="submit" value="ENVIAR">
+          <input class="form-btn" type="reset" value="RESET">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
